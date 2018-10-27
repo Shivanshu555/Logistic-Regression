@@ -1,5 +1,5 @@
 # Logistic-Regression
-This respository contains some python programs related to Logistic Regression
+import numpy as np
 class Binary_Logistic_Regression:
     '''Using this we are training a logistic model. Here we accept only two
 features in our dataset and two (0,1) target variables.It runs using the algorithm
