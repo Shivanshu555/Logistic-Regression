@@ -1,6 +1,7 @@
 import numpy as np
 
 def join_ones(X):
+	'''It adds one more feature of ones with all the other features'''
 	if X.shape[0]==X.size:
 		X=[[i] for i in X.tolist()]
 	else:
